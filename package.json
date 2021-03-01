@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+	"e2e": "ng e2e",
+	"createStandard": "node ./scripts/create-template/byShell.js --FilePath"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +20,15 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
+    "@ngrx/component-store": "^10.1.1",
+    "@ngrx/effects": "^10.1.1",
+    "@ngrx/entity": "^10.1.1",
+    "@ngrx/router-store": "^10.1.1",
+    "@ngrx/store": "^10.1.1",
+    "@ngrx/store-devtools": "^10.1.1",
+    "commander": "^6.2.1",
+    "ng-zorro-antd": "^10.2.2",
+    "ngrx": "0.0.1-security",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -27,6 +37,7 @@
     "@angular-devkit/build-angular": "~0.1100.4",
     "@angular/cli": "~11.0.4",
     "@angular/compiler-cli": "~11.0.4",
+    "@ngrx/schematics": "^10.1.1",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
@@ -38,6 +49,7 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "protractor": "~7.0.0",
+    "shelljs": "^0.8.4",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
