@@ -1,12 +1,12 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import { MainRoutingModule } from './main-routing.module';
-import { RegisterComponent } from '../register/register.component';
+import { MainRoutingModule } from "./main-routing.module";
+import { MainComponent } from "../main/main.component";
 
 
 @NgModule({
-  declarations: [RegisterComponent],
+  declarations: [MainComponent],
   imports: [
     CommonModule,
     MainRoutingModule
