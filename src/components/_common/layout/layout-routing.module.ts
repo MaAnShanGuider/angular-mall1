@@ -18,11 +18,11 @@ const routes: Routes = [
     ]
   },
   {
-    path: "login/main",
+    path: "login",
     loadChildren: () => import("../../login/main/main.module").then(m => m.MainModule)
   },
   {
-    path: "login/register",
+    path: "register",
     loadChildren: () => import("../../login/register/register.module").then(m => m.RegisterModule)
   },
 ];

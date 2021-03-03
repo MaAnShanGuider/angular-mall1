@@ -32,6 +32,11 @@
                 "output": "/assets/"
               }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/css"
+            ]
+          },
             "styles": [
               "src/theme.less",
               "src/styles.scss"
@@ -99,6 +104,11 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles.scss"
+              ]
+            },
             "scripts": []
           }
         },
